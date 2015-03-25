@@ -1,0 +1,13 @@
+//A rough sketch of what the flowrate sensor code will 
+//eventually look like
+
+
+//Call interupt once every millisecond:
+
+//If current pin state == previous pin state, 
+//  nothing has changed; return without doing anything
+
+//Else, if pin state is high (5v),
+//  count it as a pulse
+//
+//
